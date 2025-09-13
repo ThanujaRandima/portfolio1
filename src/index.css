@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-google: "Google Sans Code", monospace;
+
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -149,3 +152,4 @@
   padding: 0;
   text-align: center;
 }
+
