@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
-
+import { Github } from 'lucide-react'
 
 export const Herosection = () => {
   return (
@@ -17,6 +17,15 @@ export const Herosection = () => {
                     delaySpeed={1500}
                     />
                 </h1>
+
+                <p className='text-[16px] opacity-0 animate-fade-in-delay-3 pt-2'>Full stack developer with a passion for AI and ML <br />
+                Designing scalable web solutions that are functional and user focused</p>
+                
+                <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
+                  <a href="#projects" className='cosmic-button'> 
+                    View my work
+                  </a>
+                </div>
             </div>
         </div>
     </section>
