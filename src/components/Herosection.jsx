@@ -8,7 +8,7 @@ export const Herosection = () => {
             <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl">
                     <Typewriter 
-                    words = {["Developer", "Designer", "Frontend", "Backend", "UI/UX"]}
+                    words = {["Hi, i'm Thanuja","Developer", "Designer", "Frontend", "Backend", "UI/UX"]}
                     loop={true}
                     cursor
                     cursorStyle='|'
@@ -18,10 +18,9 @@ export const Herosection = () => {
                     />
                 </h1>
 
-                <p className='text-[16px] opacity-0 animate-fade-in-delay-3 pt-2'>Full stack developer with a passion for AI and ML <br />
-                Designing scalable web solutions that are functional and user focused</p>
+                <p className='text-[16px] opacity-0 animate-fade-in-delay-3 pt-2'>I craft modern and scalable web applications combining full stack expertise with a focus on performance and user experience</p>
                 
-                <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
+                <div className='pt-5 opacity-0 animate-fade-in-delay-4'>
                   <a href="#projects" className='cosmic-button'> 
                     View my work
                   </a>
