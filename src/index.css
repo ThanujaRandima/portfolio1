@@ -3,6 +3,8 @@
 @theme {
   --font-outfit: "Outfit", sans-serif;
   --font-google: "Google Sans Code", monospace;
+  --font-sora: "Sora", sans-serif;
+  --font-questrial: "Questrial", sans-serif;
 
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));

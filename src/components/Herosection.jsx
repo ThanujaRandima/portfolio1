@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
-import { Github } from 'lucide-react'
+import { Github, GithubIcon, Linkedin, LinkedinIcon, Mail } from 'lucide-react'
 
 export const Herosection = () => {
   return (
@@ -24,6 +24,11 @@ export const Herosection = () => {
                   <a href="#projects" className='cosmic-button'> 
                     View my work
                   </a>
+                </div>
+                <div className='flex justify-center gap-10 mt-10  opacity-0 animate-fade-in-delay-4'>
+                  <Github className='size-7'/>
+                  <Linkedin className='size-7'/>
+                  <Mail className='size-7'/>
                 </div>
             </div>
         </div>
