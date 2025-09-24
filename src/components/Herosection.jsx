@@ -1,5 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
-import { Github, GithubIcon, Linkedin, LinkedinIcon, Mail } from 'lucide-react'
+import { ArrowDown, Github, GithubIcon, Linkedin, LinkedinIcon, Mail } from 'lucide-react'
 
 export const Herosection = () => {
   return (
@@ -8,7 +8,7 @@ export const Herosection = () => {
             <div className="space-y-6">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl">
                     <Typewriter 
-                    words = {["Hi, i'm Thanuja","Developer", "Designer", "Frontend", "Backend", "UI/UX"]}
+                    words = {["Developer", "Designer", "Frontend", "Backend", "UI/UX"]}
                     loop={true}
                     cursor
                     cursorStyle='|'
@@ -18,7 +18,7 @@ export const Herosection = () => {
                     />
                 </h1>
 
-                <p className='text-[16px] opacity-0 animate-fade-in-delay-3 pt-2'>I craft modern and scalable web applications combining full stack expertise with a focus on performance and user experience</p>
+                <p className='text-[16px] opacity-0 animate-fade-in-delay-3 pt-2 font-DM'>I craft modern and scalable web applications combining full stack expertise with a focus on performance and user experience</p>
                 
                 <div className='pt-5 opacity-0 animate-fade-in-delay-4'>
                   <a href="#projects" className='cosmic-button'> 
@@ -26,9 +26,9 @@ export const Herosection = () => {
                   </a>
                 </div>
                 <div className='flex justify-center gap-10 mt-10  opacity-0 animate-fade-in-delay-4'>
-                  <Github className='size-7'/>
-                  <Linkedin className='size-7'/>
-                  <Mail className='size-7'/>
+                  <Github className='size-8 cursor-pointer'/>
+                  <Linkedin className='size-8 cursor-pointer'/>
+                  <Mail className='size-8 cursor-pointer'/>
                 </div>
             </div>
         </div>

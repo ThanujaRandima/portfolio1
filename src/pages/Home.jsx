@@ -5,7 +5,7 @@ import { Herosection } from "../components/Herosection";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden font-sora">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden font-google">
         <StarBackground />
         <Navbar />
         <Herosection />
